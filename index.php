@@ -37,7 +37,7 @@
             echo "Nothing set";
     }
 
-    $provisionedActivities = array("Specs", "Drugs", "Rock", "Roll");
+    $provisionedActivities = array("Specs", "Drugs", "Rock", "Roll", "Mugs");
     foreach($provisionedActivities as $x){
         if($x == "mugs"){
             $provisionedActivities[$x]['value']="hugs";
