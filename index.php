@@ -37,6 +37,11 @@
             echo "Nothing set";
     }
 
+    $provisionedActivities = array("Specs", "Drugs", "Rock", "Roll");
+    foreach($provisionedActivities as $x){
+        print "<p>$x</p>";
+    }
+
     ?>
 
 
