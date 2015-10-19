@@ -39,7 +39,7 @@
 
     $provisionedActivities = array("Specs", "Drugs", "Rock", "Roll", "Mugs");
     foreach($provisionedActivities as $x){
-        if($x == "mugs"){
+        if($x == "Mugs"){
             $provisionedActivities[$x]['value']="hugs";
         }
         print "<p>$x</p>";
