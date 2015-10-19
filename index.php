@@ -8,10 +8,10 @@
     $myAge =19;
     $personName = "Josh";
 
-    if($myAge >16){
+    if($myAge >16 and $myage <=18){
         print "You can buy specs";
     }
-    if ($myAge >18){
+    if ($myAge >18 and $myage <=21){
         print "You can buy mugs and specs";
     }
     if ($myAge >21){
