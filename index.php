@@ -39,6 +39,9 @@
 
     $provisionedActivities = array("Specs", "Drugs", "Rock", "Roll");
     foreach($provisionedActivities as $x){
+        if($x == "mugs"){
+            $provisionedActivities[$x]['value']="hugs";
+        }
         print "<p>$x</p>";
     }
 
