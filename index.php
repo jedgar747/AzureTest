@@ -11,10 +11,10 @@
     if($myAge >16 and $myage <=18){
         print "You can buy specs";
     }
-    if ($myAge >18 and $myage <=21){
+    elseif ($myAge >18 and $myage <=21){
         print "You can buy mugs and specs";
     }
-    if ($myAge >21){
+    elseif ($myAge >21){
         print "You can buy specs, mugs and sausage rolls";
     }
     else{
