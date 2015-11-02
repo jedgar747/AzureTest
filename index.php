@@ -4,7 +4,6 @@
 </head>
 <body>
 <div class="register-form">
-    2
     <?php
 
     if(isset($msg) & !empty($msg)){
@@ -26,7 +25,6 @@
 
 
         <p><label>Password&nbsp;&nbsp; : </label>
-            13
             <input id="password" type="password" name="password" placeholder="password" /></p>
 
 
