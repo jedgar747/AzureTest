@@ -12,6 +12,14 @@
 
     }
 
+
+    if (isset($_POST['username']) and isset($_POST['password'])) {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        echo "Yes Yes Yes";
+    }
+
  ?>
 
     <h1>Login</h1>
@@ -22,12 +30,9 @@
 
             <input id="username" type="text" name="username" placeholder="username" /></p>
 
-
-
         <p><label>Password&nbsp;&nbsp; : </label>
+
             <input id="password" type="password" name="password" placeholder="password" /></p>
-
-
 
         <a class="btn" href="register.php">Signup</a>
 
