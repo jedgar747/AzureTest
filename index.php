@@ -17,7 +17,10 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        echo "Yes Yes Yes";
+        If (($username== "Josh") and ($password == "password")){
+            echo "You are the boy";
+        }
+
     }
 
  ?>
